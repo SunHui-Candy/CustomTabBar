@@ -1,0 +1,15 @@
+//
+//  CustomTabBar.pch
+//  CustomTabBar
+//
+//  Created by ios on 16/12/27.
+//  Copyright © 2016年 ios. All rights reserved.
+//
+
+#ifndef CustomTabBar_pch
+#define CustomTabBar_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* CustomTabBar_pch */
