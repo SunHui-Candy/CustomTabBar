@@ -15,6 +15,20 @@
 		811E25BF1E12769200744599 /* CustomTabBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 811E25BE1E12769200744599 /* CustomTabBarTests.m */; };
 		811E25CA1E12769200744599 /* CustomTabBarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 811E25C91E12769200744599 /* CustomTabBarUITests.m */; };
 		811E25E01E1277BB00744599 /* CustomTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 811E25DF1E1277BB00744599 /* CustomTabBarController.m */; };
+		81B05F0B1E232EA1002A5CC9 /* SHFiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B05F0A1E232EA1002A5CC9 /* SHFiveViewController.m */; };
+		81B05F0E1E233077002A5CC9 /* UIImage+SHOriginalImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B05F0D1E233077002A5CC9 /* UIImage+SHOriginalImage.m */; };
+		81B05F111E2339CE002A5CC9 /* SHTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B05F101E2339CE002A5CC9 /* SHTabBar.m */; };
+		81B05F141E233AAB002A5CC9 /* UIView+SHFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B05F131E233AAB002A5CC9 /* UIView+SHFrame.m */; };
+		81B05F191E235E7E002A5CC9 /* SHConstStr.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B05F181E235E7E002A5CC9 /* SHConstStr.m */; };
+		81B05F201E2366C3002A5CC9 /* SHNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B05F1F1E2366C3002A5CC9 /* SHNavigationController.m */; };
+		81B05F231E236AF9002A5CC9 /* UIBarButtonItem+SHItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B05F221E236AF9002A5CC9 /* UIBarButtonItem+SHItem.m */; };
+		81B05F261E236D30002A5CC9 /* SHSubTagViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B05F251E236D30002A5CC9 /* SHSubTagViewController.m */; };
+		81B05F291E2379F2002A5CC9 /* SHTagOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B05F281E2379F2002A5CC9 /* SHTagOneViewController.m */; };
+		81B05F2C1E2379FE002A5CC9 /* SHTagTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B05F2B1E2379FE002A5CC9 /* SHTagTwoViewController.m */; };
+		81BFA94F1E1D05AD00D0AD35 /* SHOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81BFA94E1E1D05AD00D0AD35 /* SHOneViewController.m */; };
+		81BFA9521E1D05C200D0AD35 /* SHTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81BFA9511E1D05C200D0AD35 /* SHTwoViewController.m */; };
+		81BFA9551E1D05CE00D0AD35 /* SHThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81BFA9541E1D05CE00D0AD35 /* SHThreeViewController.m */; };
+		81BFA9581E1D05DA00D0AD35 /* SHFourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81BFA9571E1D05DA00D0AD35 /* SHFourViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +66,35 @@
 		811E25DE1E1277BB00744599 /* CustomTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTabBarController.h; sourceTree = "<group>"; };
 		811E25DF1E1277BB00744599 /* CustomTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTabBarController.m; sourceTree = "<group>"; };
 		811E25E11E12782C00744599 /* CustomTabBar.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomTabBar.pch; path = Class/CustomTabBar.pch; sourceTree = "<group>"; };
+		81B05F091E232EA1002A5CC9 /* SHFiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHFiveViewController.h; sourceTree = "<group>"; };
+		81B05F0A1E232EA1002A5CC9 /* SHFiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHFiveViewController.m; sourceTree = "<group>"; };
+		81B05F0C1E233077002A5CC9 /* UIImage+SHOriginalImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+SHOriginalImage.h"; sourceTree = "<group>"; };
+		81B05F0D1E233077002A5CC9 /* UIImage+SHOriginalImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+SHOriginalImage.m"; sourceTree = "<group>"; };
+		81B05F0F1E2339CE002A5CC9 /* SHTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHTabBar.h; sourceTree = "<group>"; };
+		81B05F101E2339CE002A5CC9 /* SHTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHTabBar.m; sourceTree = "<group>"; };
+		81B05F121E233AAB002A5CC9 /* UIView+SHFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SHFrame.h"; sourceTree = "<group>"; };
+		81B05F131E233AAB002A5CC9 /* UIView+SHFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SHFrame.m"; sourceTree = "<group>"; };
+		81B05F151E235BC9002A5CC9 /* CommonDeifine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonDeifine.h; sourceTree = "<group>"; };
+		81B05F171E235E7E002A5CC9 /* SHConstStr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHConstStr.h; sourceTree = "<group>"; };
+		81B05F181E235E7E002A5CC9 /* SHConstStr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHConstStr.m; sourceTree = "<group>"; };
+		81B05F1E1E2366C3002A5CC9 /* SHNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHNavigationController.h; sourceTree = "<group>"; };
+		81B05F1F1E2366C3002A5CC9 /* SHNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHNavigationController.m; sourceTree = "<group>"; };
+		81B05F211E236AF9002A5CC9 /* UIBarButtonItem+SHItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+SHItem.h"; sourceTree = "<group>"; };
+		81B05F221E236AF9002A5CC9 /* UIBarButtonItem+SHItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+SHItem.m"; sourceTree = "<group>"; };
+		81B05F241E236D30002A5CC9 /* SHSubTagViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHSubTagViewController.h; sourceTree = "<group>"; };
+		81B05F251E236D30002A5CC9 /* SHSubTagViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHSubTagViewController.m; sourceTree = "<group>"; };
+		81B05F271E2379F2002A5CC9 /* SHTagOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHTagOneViewController.h; sourceTree = "<group>"; };
+		81B05F281E2379F2002A5CC9 /* SHTagOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHTagOneViewController.m; sourceTree = "<group>"; };
+		81B05F2A1E2379FE002A5CC9 /* SHTagTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHTagTwoViewController.h; sourceTree = "<group>"; };
+		81B05F2B1E2379FE002A5CC9 /* SHTagTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHTagTwoViewController.m; sourceTree = "<group>"; };
+		81BFA94D1E1D05AD00D0AD35 /* SHOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHOneViewController.h; sourceTree = "<group>"; };
+		81BFA94E1E1D05AD00D0AD35 /* SHOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHOneViewController.m; sourceTree = "<group>"; };
+		81BFA9501E1D05C200D0AD35 /* SHTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHTwoViewController.h; sourceTree = "<group>"; };
+		81BFA9511E1D05C200D0AD35 /* SHTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHTwoViewController.m; sourceTree = "<group>"; };
+		81BFA9531E1D05CE00D0AD35 /* SHThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHThreeViewController.h; sourceTree = "<group>"; };
+		81BFA9541E1D05CE00D0AD35 /* SHThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHThreeViewController.m; sourceTree = "<group>"; };
+		81BFA9561E1D05DA00D0AD35 /* SHFourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHFourViewController.h; sourceTree = "<group>"; };
+		81BFA9571E1D05DA00D0AD35 /* SHFourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHFourViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +149,7 @@
 				811E25A71E12769200744599 /* AppDelegate.h */,
 				811E25A81E12769200744599 /* AppDelegate.m */,
 				811E25E11E12782C00744599 /* CustomTabBar.pch */,
+				81B05F151E235BC9002A5CC9 /* CommonDeifine.h */,
 				811E25AD1E12769200744599 /* Main.storyboard */,
 				811E25B01E12769200744599 /* Assets.xcassets */,
 				811E25B21E12769200744599 /* LaunchScreen.storyboard */,
@@ -144,12 +188,14 @@
 		811E25D71E12775700744599 /* Class */ = {
 			isa = PBXGroup;
 			children = (
-				811E25F21E128ADF00744599 /* Four */,
 				811E25F61E128ADF00744599 /* One */,
 				811E25FE1E128ADF00744599 /* Two */,
 				811E25FA1E128ADF00744599 /* Three */,
+				811E25F21E128ADF00744599 /* Four */,
+				81B05F051E232E92002A5CC9 /* Five */,
 				811E25D81E12775700744599 /* Other */,
 				811E25DA1E12775700744599 /* TabBar */,
+				81B05F1A1E23669F002A5CC9 /* Nav */,
 				811E26021E128B3000744599 /* SuperCls */,
 			);
 			path = Class;
@@ -158,6 +204,7 @@
 		811E25D81E12775700744599 /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				81B05F161E235E4D002A5CC9 /* ConstStr */,
 				811E25D91E12775700744599 /* Category */,
 			);
 			path = Other;
@@ -166,6 +213,12 @@
 		811E25D91E12775700744599 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				81B05F0C1E233077002A5CC9 /* UIImage+SHOriginalImage.h */,
+				81B05F0D1E233077002A5CC9 /* UIImage+SHOriginalImage.m */,
+				81B05F121E233AAB002A5CC9 /* UIView+SHFrame.h */,
+				81B05F131E233AAB002A5CC9 /* UIView+SHFrame.m */,
+				81B05F211E236AF9002A5CC9 /* UIBarButtonItem+SHItem.h */,
+				81B05F221E236AF9002A5CC9 /* UIBarButtonItem+SHItem.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -199,6 +252,8 @@
 		811E25DD1E12775700744599 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				81B05F0F1E2339CE002A5CC9 /* SHTabBar.h */,
+				81B05F101E2339CE002A5CC9 /* SHTabBar.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -216,6 +271,8 @@
 		811E25F31E128ADF00744599 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				81BFA9561E1D05DA00D0AD35 /* SHFourViewController.h */,
+				81BFA9571E1D05DA00D0AD35 /* SHFourViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -247,6 +304,8 @@
 		811E25F71E128ADF00744599 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				81BFA94D1E1D05AD00D0AD35 /* SHOneViewController.h */,
+				81BFA94E1E1D05AD00D0AD35 /* SHOneViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -278,6 +337,8 @@
 		811E25FB1E128ADF00744599 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				81BFA9531E1D05CE00D0AD35 /* SHThreeViewController.h */,
+				81BFA9541E1D05CE00D0AD35 /* SHThreeViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -309,6 +370,14 @@
 		811E25FF1E128ADF00744599 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				81BFA9501E1D05C200D0AD35 /* SHTwoViewController.h */,
+				81BFA9511E1D05C200D0AD35 /* SHTwoViewController.m */,
+				81B05F241E236D30002A5CC9 /* SHSubTagViewController.h */,
+				81B05F251E236D30002A5CC9 /* SHSubTagViewController.m */,
+				81B05F271E2379F2002A5CC9 /* SHTagOneViewController.h */,
+				81B05F281E2379F2002A5CC9 /* SHTagOneViewController.m */,
+				81B05F2A1E2379FE002A5CC9 /* SHTagTwoViewController.h */,
+				81B05F2B1E2379FE002A5CC9 /* SHTagTwoViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -352,6 +421,81 @@
 			sourceTree = "<group>";
 		};
 		811E26051E128B3000744599 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		81B05F051E232E92002A5CC9 /* Five */ = {
+			isa = PBXGroup;
+			children = (
+				81B05F061E232E92002A5CC9 /* Controllers */,
+				81B05F071E232E92002A5CC9 /* Models */,
+				81B05F081E232E92002A5CC9 /* Views */,
+			);
+			path = Five;
+			sourceTree = "<group>";
+		};
+		81B05F061E232E92002A5CC9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				81B05F091E232EA1002A5CC9 /* SHFiveViewController.h */,
+				81B05F0A1E232EA1002A5CC9 /* SHFiveViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		81B05F071E232E92002A5CC9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		81B05F081E232E92002A5CC9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		81B05F161E235E4D002A5CC9 /* ConstStr */ = {
+			isa = PBXGroup;
+			children = (
+				81B05F171E235E7E002A5CC9 /* SHConstStr.h */,
+				81B05F181E235E7E002A5CC9 /* SHConstStr.m */,
+			);
+			path = ConstStr;
+			sourceTree = "<group>";
+		};
+		81B05F1A1E23669F002A5CC9 /* Nav */ = {
+			isa = PBXGroup;
+			children = (
+				81B05F1B1E23669F002A5CC9 /* Controllers */,
+				81B05F1C1E23669F002A5CC9 /* Models */,
+				81B05F1D1E23669F002A5CC9 /* Views */,
+			);
+			path = Nav;
+			sourceTree = "<group>";
+		};
+		81B05F1B1E23669F002A5CC9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				81B05F1E1E2366C3002A5CC9 /* SHNavigationController.h */,
+				81B05F1F1E2366C3002A5CC9 /* SHNavigationController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		81B05F1C1E23669F002A5CC9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		81B05F1D1E23669F002A5CC9 /* Views */ = {
 			isa = PBXGroup;
 			children = (
 			);
@@ -420,11 +564,13 @@
 		811E25991E12769200744599 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = SH;
 				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = ios;
 				TargetAttributes = {
 					811E25A01E12769200744599 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = V2HDPP64PV;
 						ProvisioningStyle = Automatic;
 					};
 					811E25B91E12769200744599 = {
@@ -491,9 +637,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81BFA9581E1D05DA00D0AD35 /* SHFourViewController.m in Sources */,
+				81B05F141E233AAB002A5CC9 /* UIView+SHFrame.m in Sources */,
+				81B05F191E235E7E002A5CC9 /* SHConstStr.m in Sources */,
+				81BFA94F1E1D05AD00D0AD35 /* SHOneViewController.m in Sources */,
 				811E25A91E12769200744599 /* AppDelegate.m in Sources */,
 				811E25A61E12769200744599 /* main.m in Sources */,
+				81BFA9521E1D05C200D0AD35 /* SHTwoViewController.m in Sources */,
+				81B05F0B1E232EA1002A5CC9 /* SHFiveViewController.m in Sources */,
+				81B05F261E236D30002A5CC9 /* SHSubTagViewController.m in Sources */,
+				81B05F0E1E233077002A5CC9 /* UIImage+SHOriginalImage.m in Sources */,
+				81BFA9551E1D05CE00D0AD35 /* SHThreeViewController.m in Sources */,
+				81B05F291E2379F2002A5CC9 /* SHTagOneViewController.m in Sources */,
+				81B05F231E236AF9002A5CC9 /* UIBarButtonItem+SHItem.m in Sources */,
+				81B05F111E2339CE002A5CC9 /* SHTabBar.m in Sources */,
 				811E25E01E1277BB00744599 /* CustomTabBarController.m in Sources */,
+				81B05F201E2366C3002A5CC9 /* SHNavigationController.m in Sources */,
+				81B05F2C1E2379FE002A5CC9 /* SHTagTwoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -642,9 +802,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V2HDPP64PV;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = CustomTabBar/Class/CustomTabBar.pch;
 				INFOPLIST_FILE = CustomTabBar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sh.CustomTabBar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -655,9 +817,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V2HDPP64PV;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = CustomTabBar/Class/CustomTabBar.pch;
 				INFOPLIST_FILE = CustomTabBar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sh.CustomTabBar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -729,6 +893,7 @@
 				811E25D01E12769200744599 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		811E25D11E12769200744599 /* Build configuration list for PBXNativeTarget "CustomTabBarTests" */ = {
 			isa = XCConfigurationList;
@@ -737,6 +902,7 @@
 				811E25D31E12769200744599 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		811E25D41E12769200744599 /* Build configuration list for PBXNativeTarget "CustomTabBarUITests" */ = {
 			isa = XCConfigurationList;
@@ -745,6 +911,7 @@
 				811E25D61E12769200744599 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

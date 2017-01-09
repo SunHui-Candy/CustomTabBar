@@ -6,10 +6,9 @@
 //  Copyright © 2016年 ios. All rights reserved.
 //
 
-#ifndef CustomTabBar_pch
-#define CustomTabBar_pch
 
-// Include any system framework and library headers here that should be included in all compilation units.
-// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "UIView+SHFrame.h"
+#import "CommonDeifine.h"
+#import "SHConstStr.h"
+#import "UIBarButtonItem+SHItem.h" // 设置导航相关
 
-#endif /* CustomTabBar_pch */
