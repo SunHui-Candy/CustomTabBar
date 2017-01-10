@@ -29,6 +29,9 @@
 		81BFA9521E1D05C200D0AD35 /* SHTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81BFA9511E1D05C200D0AD35 /* SHTwoViewController.m */; };
 		81BFA9551E1D05CE00D0AD35 /* SHThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81BFA9541E1D05CE00D0AD35 /* SHThreeViewController.m */; };
 		81BFA9581E1D05DA00D0AD35 /* SHFourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81BFA9571E1D05DA00D0AD35 /* SHFourViewController.m */; };
+		81DE2BA21E248D7100AF177A /* SHSubTagTwoTBController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81DE2BA11E248D7100AF177A /* SHSubTagTwoTBController.m */; };
+		81DE2BA61E248D9C00AF177A /* SHSubTagTwoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 81DE2BA41E248D9C00AF177A /* SHSubTagTwoCell.m */; };
+		81DE2BA71E248D9C00AF177A /* SHSubTagTwoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81DE2BA51E248D9C00AF177A /* SHSubTagTwoCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,6 +98,11 @@
 		81BFA9541E1D05CE00D0AD35 /* SHThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHThreeViewController.m; sourceTree = "<group>"; };
 		81BFA9561E1D05DA00D0AD35 /* SHFourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHFourViewController.h; sourceTree = "<group>"; };
 		81BFA9571E1D05DA00D0AD35 /* SHFourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHFourViewController.m; sourceTree = "<group>"; };
+		81DE2BA01E248D7100AF177A /* SHSubTagTwoTBController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHSubTagTwoTBController.h; sourceTree = "<group>"; };
+		81DE2BA11E248D7100AF177A /* SHSubTagTwoTBController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHSubTagTwoTBController.m; sourceTree = "<group>"; };
+		81DE2BA31E248D9C00AF177A /* SHSubTagTwoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHSubTagTwoCell.h; sourceTree = "<group>"; };
+		81DE2BA41E248D9C00AF177A /* SHSubTagTwoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHSubTagTwoCell.m; sourceTree = "<group>"; };
+		81DE2BA51E248D9C00AF177A /* SHSubTagTwoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SHSubTagTwoCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -378,6 +386,8 @@
 				81B05F281E2379F2002A5CC9 /* SHTagOneViewController.m */,
 				81B05F2A1E2379FE002A5CC9 /* SHTagTwoViewController.h */,
 				81B05F2B1E2379FE002A5CC9 /* SHTagTwoViewController.m */,
+				81DE2BA01E248D7100AF177A /* SHSubTagTwoTBController.h */,
+				81DE2BA11E248D7100AF177A /* SHSubTagTwoTBController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -392,6 +402,9 @@
 		811E26011E128ADF00744599 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				81DE2BA31E248D9C00AF177A /* SHSubTagTwoCell.h */,
+				81DE2BA41E248D9C00AF177A /* SHSubTagTwoCell.m */,
+				81DE2BA51E248D9C00AF177A /* SHSubTagTwoCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -613,6 +626,7 @@
 				811E25B41E12769200744599 /* LaunchScreen.storyboard in Resources */,
 				811E25B11E12769200744599 /* Assets.xcassets in Resources */,
 				811E25AF1E12769200744599 /* Main.storyboard in Resources */,
+				81DE2BA71E248D9C00AF177A /* SHSubTagTwoCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -640,10 +654,12 @@
 				81BFA9581E1D05DA00D0AD35 /* SHFourViewController.m in Sources */,
 				81B05F141E233AAB002A5CC9 /* UIView+SHFrame.m in Sources */,
 				81B05F191E235E7E002A5CC9 /* SHConstStr.m in Sources */,
+				81DE2BA61E248D9C00AF177A /* SHSubTagTwoCell.m in Sources */,
 				81BFA94F1E1D05AD00D0AD35 /* SHOneViewController.m in Sources */,
 				811E25A91E12769200744599 /* AppDelegate.m in Sources */,
 				811E25A61E12769200744599 /* main.m in Sources */,
 				81BFA9521E1D05C200D0AD35 /* SHTwoViewController.m in Sources */,
+				81DE2BA21E248D7100AF177A /* SHSubTagTwoTBController.m in Sources */,
 				81B05F0B1E232EA1002A5CC9 /* SHFiveViewController.m in Sources */,
 				81B05F261E236D30002A5CC9 /* SHSubTagViewController.m in Sources */,
 				81B05F0E1E233077002A5CC9 /* UIImage+SHOriginalImage.m in Sources */,
