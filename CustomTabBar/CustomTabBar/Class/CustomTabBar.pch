@@ -12,3 +12,4 @@
 #import "SHConstStr.h"
 #import "UIBarButtonItem+SHItem.h" // 设置导航相关
 
+#import <AFNetworking.h>
