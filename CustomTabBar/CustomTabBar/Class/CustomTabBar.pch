@@ -12,4 +12,10 @@
 #import "SHConstStr.h"
 #import "UIBarButtonItem+SHItem.h" // 设置导航相关
 
-#import <AFNetworking.h>
+#import <AFNetworking/AFNetworking.h>
+
+#import "SHAFNManger.h" //封装的网络请求
+
+#import <MJExtension/MJExtension.h>
+
+#import <SVProgressHUD/SVProgressHUD.h>

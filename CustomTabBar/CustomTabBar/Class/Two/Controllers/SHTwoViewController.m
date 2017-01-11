@@ -7,7 +7,9 @@
 //
 
 #import "SHTwoViewController.h"
-#import "SHSubTagViewController.h"
+#import "SHSubTagViewController.h" // segment类
+#import "SHSubTagTwoTBController.h" // 标签类
+
 
 @interface SHTwoViewController ()
 
@@ -30,6 +32,7 @@
 
     self.navigationItem.leftBarButtonItem = [UIBarButtonItem itemWithimage:kImageName(@"MainTagSubIcon") highImage:kImageName(@"MainTagSubIconClick") target:self action:@selector(tagClick)];
     
+    self.navigationItem.rightBarButtonItem = [UIBarButtonItem itemWithimage:kImageName(@"MainTagSubIcon") highImage:kImageName(@"MainTagSubIconClick") target:self action:@selector(tagRightClick)];
 }
 
 #pragma mark - 点击订阅标签调用
@@ -39,4 +42,33 @@
     SHSubTagViewController *subVC = [[SHSubTagViewController alloc]init];
     [self.navigationController pushViewController:subVC animated:YES];
 }
+
+- (void)tagRightClick
+{
+    SHSubTagTwoTBController *subRightVC = [[SHSubTagTwoTBController alloc]init];
+    [self.navigationController pushViewController:subRightVC animated:YES];
+
+}
+
 @end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

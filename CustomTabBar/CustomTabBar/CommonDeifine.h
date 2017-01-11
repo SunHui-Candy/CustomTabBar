@@ -39,6 +39,10 @@
 #define kFontBodySie(size) [UIFont boldSystemFontOfSize:size];
 #define kFontSize(size) [UIFont systemFontOfSize:size];
 
+// 格式化字符串
+#define kFormat(string, args...)       [NSString stringWithFormat:string, args]
+
+
 
 // 颜色
 #define RGBA(r, g, b, a)                    [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:a]

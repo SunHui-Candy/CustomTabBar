@@ -32,6 +32,8 @@
 		81DE2BA21E248D7100AF177A /* SHSubTagTwoTBController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81DE2BA11E248D7100AF177A /* SHSubTagTwoTBController.m */; };
 		81DE2BA61E248D9C00AF177A /* SHSubTagTwoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 81DE2BA41E248D9C00AF177A /* SHSubTagTwoCell.m */; };
 		81DE2BA71E248D9C00AF177A /* SHSubTagTwoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81DE2BA51E248D9C00AF177A /* SHSubTagTwoCell.xib */; };
+		81DE2BAA1E24C05100AF177A /* SHSubTagItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 81DE2BA91E24C05100AF177A /* SHSubTagItem.m */; };
+		81DE2BAF1E24C30800AF177A /* SHAFNManger.m in Sources */ = {isa = PBXBuildFile; fileRef = 81DE2BAE1E24C30800AF177A /* SHAFNManger.m */; };
 		B446612DA7EE00E0F2CD011F /* libPods-CustomTabBar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 750CF5498BB599A09C905493 /* libPods-CustomTabBar.a */; };
 /* End PBXBuildFile section */
 
@@ -106,6 +108,10 @@
 		81DE2BA31E248D9C00AF177A /* SHSubTagTwoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHSubTagTwoCell.h; sourceTree = "<group>"; };
 		81DE2BA41E248D9C00AF177A /* SHSubTagTwoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHSubTagTwoCell.m; sourceTree = "<group>"; };
 		81DE2BA51E248D9C00AF177A /* SHSubTagTwoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SHSubTagTwoCell.xib; sourceTree = "<group>"; };
+		81DE2BA81E24C05100AF177A /* SHSubTagItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHSubTagItem.h; sourceTree = "<group>"; };
+		81DE2BA91E24C05100AF177A /* SHSubTagItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHSubTagItem.m; sourceTree = "<group>"; };
+		81DE2BAD1E24C30800AF177A /* SHAFNManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHAFNManger.h; sourceTree = "<group>"; };
+		81DE2BAE1E24C30800AF177A /* SHAFNManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHAFNManger.m; sourceTree = "<group>"; };
 		D7804082BF040B2299111758 /* Pods-CustomTabBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomTabBar.release.xcconfig"; path = "Pods/Target Support Files/Pods-CustomTabBar/Pods-CustomTabBar.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -236,6 +242,8 @@
 		811E25D81E12775700744599 /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				81DE2BAB1E24C2D800AF177A /* AFTools */,
+				81DE2BAC1E24C2D800AF177A /* Tools */,
 				81B05F161E235E4D002A5CC9 /* ConstStr */,
 				811E25D91E12775700744599 /* Category */,
 			);
@@ -419,6 +427,8 @@
 		811E26001E128ADF00744599 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				81DE2BA81E24C05100AF177A /* SHSubTagItem.h */,
+				81DE2BA91E24C05100AF177A /* SHSubTagItem.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -537,6 +547,22 @@
 			children = (
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		81DE2BAB1E24C2D800AF177A /* AFTools */ = {
+			isa = PBXGroup;
+			children = (
+				81DE2BAD1E24C30800AF177A /* SHAFNManger.h */,
+				81DE2BAE1E24C30800AF177A /* SHAFNManger.m */,
+			);
+			path = AFTools;
+			sourceTree = "<group>";
+		};
+		81DE2BAC1E24C2D800AF177A /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -686,7 +712,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run \'pod install\' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		E0C7E8E6A3B1DC218AA34B43 /* [CP] Embed Pods Frameworks */ = {
@@ -731,8 +757,10 @@
 				81B05F191E235E7E002A5CC9 /* SHConstStr.m in Sources */,
 				81DE2BA61E248D9C00AF177A /* SHSubTagTwoCell.m in Sources */,
 				81BFA94F1E1D05AD00D0AD35 /* SHOneViewController.m in Sources */,
+				81DE2BAA1E24C05100AF177A /* SHSubTagItem.m in Sources */,
 				811E25A91E12769200744599 /* AppDelegate.m in Sources */,
 				811E25A61E12769200744599 /* main.m in Sources */,
+				81DE2BAF1E24C30800AF177A /* SHAFNManger.m in Sources */,
 				81BFA9521E1D05C200D0AD35 /* SHTwoViewController.m in Sources */,
 				81DE2BA21E248D7100AF177A /* SHSubTagTwoTBController.m in Sources */,
 				81B05F0B1E232EA1002A5CC9 /* SHFiveViewController.m in Sources */,

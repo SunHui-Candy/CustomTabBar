@@ -8,11 +8,11 @@
 
 #import "SHSubTagTwoTBController.h"
 #import "SHSubTagTwoCell.h"
-
+#import "SHSubTagItem.h" // 存放标签item
 
 @interface SHSubTagTwoTBController ()
 
-@property (nonatomic, weak) NSMutableArray *dataArrM;
+@property (nonatomic, strong) NSArray *subTagsArr;
 
 @end
 
@@ -23,6 +23,7 @@
     // 展示标签数据 -> 请求数据(接口文档) -> 解析数据(写成Plist)(image_list,sub_number,theme_name) -> 设计模型 -> 字典转模型 -> 展示数据
     [self loadData];
 
+    self.title = @"推荐标签";
     
     [self.tableView registerNib:[UINib nibWithNibName:NSStringFromClass([SHSubTagTwoCell class]) bundle:nil] forCellReuseIdentifier:NSStringFromClass([SHSubTagTwoCell class])];
     
@@ -32,7 +33,7 @@
 #pragma mark - Table view data source
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return self.dataArrM.count;
+    return self.subTagsArr.count;
 }
 
 
@@ -48,17 +49,18 @@
 
 - (void)loadData
 {
+    [[SHAFNManger sharedManager]actionGetSubTagSuccess:^(NSArray *data) {
+        
+        
+        self.subTagsArr = [SHSubTagItem mj_objectArrayWithKeyValuesArray:data];
+        [self.tableView reloadData];
+        
+    } failure:^(NSError *error) {
+        
+    }];
     
 }
 
-#pragma mark - Getters
-- (NSMutableArray *)dataArrM
-{
-    if (!_dataArrM) {
-        _dataArrM = [NSMutableArray array];
-    }
-    return _dataArrM;
-}
 
 @end
 
