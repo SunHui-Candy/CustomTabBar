@@ -13,4 +13,11 @@
 // 获取没有被渲染的原始图片
 + (instancetype) imageOriginalWithName:(NSString *)imageName;
 
+
+- (instancetype)sh_circleImage;
+
++ (instancetype)sh_circleImageNamed:(NSString *)name;
+
 @end
+
+

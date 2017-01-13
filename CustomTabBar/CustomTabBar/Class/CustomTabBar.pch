@@ -10,12 +10,17 @@
 #import "UIView+SHFrame.h"
 #import "CommonDeifine.h"
 #import "SHConstStr.h"
-#import "UIBarButtonItem+SHItem.h" // 设置导航相关
 
-#import <AFNetworking/AFNetworking.h>
+#import "UIBarButtonItem+SHItem.h" // 设置导航相关
+#import "UIImage+SHOriginalImage.h" // 图片分类,没有渲染的图,没有
+#import "UIImageView+SHDownloader.h" 
 
 #import "SHAFNManger.h" //封装的网络请求
 
-#import <MJExtension/MJExtension.h>
 
+#import <AFNetworking/AFNetworking.h>
+#import <UIImageView+WebCache.h>
+#import <MJExtension/MJExtension.h>
 #import <SVProgressHUD/SVProgressHUD.h>
+
+

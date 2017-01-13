@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
+@class SHSubTagItem;
+
 @interface SHSubTagTwoCell : UITableViewCell
+
+@property (nonatomic, strong) SHSubTagItem *tagItem;
 
 @end

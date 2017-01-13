@@ -29,6 +29,7 @@
 		81BFA9521E1D05C200D0AD35 /* SHTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81BFA9511E1D05C200D0AD35 /* SHTwoViewController.m */; };
 		81BFA9551E1D05CE00D0AD35 /* SHThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81BFA9541E1D05CE00D0AD35 /* SHThreeViewController.m */; };
 		81BFA9581E1D05DA00D0AD35 /* SHFourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81BFA9571E1D05DA00D0AD35 /* SHFourViewController.m */; };
+		81C269901E262A930057AC6B /* UIImageView+SHDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 81C2698F1E262A930057AC6B /* UIImageView+SHDownloader.m */; };
 		81DE2BA21E248D7100AF177A /* SHSubTagTwoTBController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81DE2BA11E248D7100AF177A /* SHSubTagTwoTBController.m */; };
 		81DE2BA61E248D9C00AF177A /* SHSubTagTwoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 81DE2BA41E248D9C00AF177A /* SHSubTagTwoCell.m */; };
 		81DE2BA71E248D9C00AF177A /* SHSubTagTwoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81DE2BA51E248D9C00AF177A /* SHSubTagTwoCell.xib */; };
@@ -103,6 +104,8 @@
 		81BFA9541E1D05CE00D0AD35 /* SHThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHThreeViewController.m; sourceTree = "<group>"; };
 		81BFA9561E1D05DA00D0AD35 /* SHFourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHFourViewController.h; sourceTree = "<group>"; };
 		81BFA9571E1D05DA00D0AD35 /* SHFourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHFourViewController.m; sourceTree = "<group>"; };
+		81C2698E1E262A930057AC6B /* UIImageView+SHDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+SHDownloader.h"; sourceTree = "<group>"; };
+		81C2698F1E262A930057AC6B /* UIImageView+SHDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+SHDownloader.m"; sourceTree = "<group>"; };
 		81DE2BA01E248D7100AF177A /* SHSubTagTwoTBController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHSubTagTwoTBController.h; sourceTree = "<group>"; };
 		81DE2BA11E248D7100AF177A /* SHSubTagTwoTBController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHSubTagTwoTBController.m; sourceTree = "<group>"; };
 		81DE2BA31E248D9C00AF177A /* SHSubTagTwoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHSubTagTwoCell.h; sourceTree = "<group>"; };
@@ -259,6 +262,8 @@
 				81B05F131E233AAB002A5CC9 /* UIView+SHFrame.m */,
 				81B05F211E236AF9002A5CC9 /* UIBarButtonItem+SHItem.h */,
 				81B05F221E236AF9002A5CC9 /* UIBarButtonItem+SHItem.m */,
+				81C2698E1E262A930057AC6B /* UIImageView+SHDownloader.h */,
+				81C2698F1E262A930057AC6B /* UIImageView+SHDownloader.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -760,6 +765,7 @@
 				81DE2BAA1E24C05100AF177A /* SHSubTagItem.m in Sources */,
 				811E25A91E12769200744599 /* AppDelegate.m in Sources */,
 				811E25A61E12769200744599 /* main.m in Sources */,
+				81C269901E262A930057AC6B /* UIImageView+SHDownloader.m in Sources */,
 				81DE2BAF1E24C30800AF177A /* SHAFNManger.m in Sources */,
 				81BFA9521E1D05C200D0AD35 /* SHTwoViewController.m in Sources */,
 				81DE2BA21E248D7100AF177A /* SHSubTagTwoTBController.m in Sources */,
@@ -922,6 +928,7 @@
 			baseConfigurationReference = 6FDFEB2C25170984EA18B699 /* Pods-CustomTabBar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = V2HDPP64PV;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = CustomTabBar/Class/CustomTabBar.pch;
@@ -938,6 +945,7 @@
 			baseConfigurationReference = D7804082BF040B2299111758 /* Pods-CustomTabBar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = V2HDPP64PV;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = CustomTabBar/Class/CustomTabBar.pch;
