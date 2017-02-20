@@ -14,6 +14,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>MJRefresh.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-CustomTabBar.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -32,12 +37,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>06EDC5901C9DF27B595913C6890574D1</key>
+		<key>04CF549EBEEE7BC87AEAE35397184D94</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>3E9E70691CAE39DB3E76FB34B54D6A25</key>
+		<key>4BF77189A18893B59351512B7A9D7FAF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>949D360A703F0B5444CD66D27E258C13</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -52,7 +62,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>D8C53573FA1E664E82E7A4B4E63FB126</key>
+		<key>AE8A7D6B01250264C7818B3B41388B18</key>
 		<dict>
 			<key>primary</key>
 			<true/>

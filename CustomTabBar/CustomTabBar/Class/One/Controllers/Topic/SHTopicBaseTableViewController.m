@@ -19,11 +19,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = kCellLightGrayColor;
+    self.view.backgroundColor = SHRandomColor;
     self.tableView.contentInset = UIEdgeInsetsMake(SHNavMaxY + SHTitlesViewH, 0, SHTabBarH, 0);
     self.tableView.scrollIndicatorInsets = self.tableView.contentInset;
     self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
-   
+    
+    [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:NSStringFromClass([SHTopicBaseTableViewController class])];
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(titleButtonDidRepeatClick) name:SHTitleButtonDidRepeatClickNotification object:nil];
 }
 
 
@@ -47,12 +50,43 @@
 
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return self.topicArr.count;
+    return 15;
+ //   return self.topicArr.count;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    return nil;
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:NSStringFromClass([SHTopicBaseTableViewController class]) forIndexPath:indexPath];
+    cell.textLabel.text = kFormat(@"%ld", indexPath.row);
+    return cell;
+}
+
+#pragma mark - 监听
+/**
+ *  监听titleButton重复点击
+ */
+- (void)titleButtonDidRepeatClick
+{
+    [self tabBarButtonDidRepeatClick];
+}
+/**
+ *  监听tabBarButton重复点击
+ */
+- (void)tabBarButtonDidRepeatClick
+{
+    // 重复点击的不是首页按钮
+    if (self.view.window == nil) return;
+    
+    // 显示在正中间的不是VideoViewController
+    if (self.tableView.scrollsToTop == NO) return;
+    
+    // 进入下拉刷新
+    [self.tableView.mj_header beginRefreshing];
+}
+
+- (void)dealloc
+{
+    [[NSNotificationCenter defaultCenter] removeObserver:self];
 }
 
 #pragma mark - Getters

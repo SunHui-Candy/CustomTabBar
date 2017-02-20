@@ -23,5 +23,7 @@
 #import <UIImageView+WebCache.h>
 #import <MJExtension/MJExtension.h>
 #import <SVProgressHUD/SVProgressHUD.h>
+#import <MJRefresh.h>
+
 
 
