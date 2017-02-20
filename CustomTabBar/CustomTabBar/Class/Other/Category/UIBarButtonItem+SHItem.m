@@ -10,6 +10,7 @@
 
 @implementation UIBarButtonItem (SHItem)
 
+// 快速创建UIBarButtonItem
 + (UIBarButtonItem *)itemWithimage:(UIImage *)image highImage:(UIImage *)highImage target:(id)target action:(SEL)action
 {
     UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
@@ -25,7 +26,9 @@
     
 }
 
-+ (UIBarButtonItem *)backItemWithimage:(UIImage *)image highImage:(UIImage *)highImage target:(id)target action:(SEL)action title:(NSString *)title{
+// 导航的返回按钮
++ (UIBarButtonItem *)backItemWithimage:(UIImage *)image highImage:(UIImage *)highImage target:(id)target action:(SEL)action title:(NSString *)title
+{
     UIButton *backButton = [UIButton buttonWithType:UIButtonTypeCustom];
     [backButton setTitle:title forState:UIControlStateNormal];
     [backButton setImage:image forState:UIControlStateNormal];

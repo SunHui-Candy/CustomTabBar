@@ -32,6 +32,19 @@
     
 }
 
+// <_UINavigationInteractiveTransition: 0x7f9c948302a0>:手势代理
+
+/*
+ UIPanGestureRecognizer
+ 
+ UIScreenEdgePanGestureRecognizer:导航滑动手势
+ target=<_UINavigationInteractiveTransition 0x7fdc4a740440>)
+ action=handleNavigationTransition:
+ 
+ 
+ <UIScreenEdgePanGestureRecognizer: 0x7fdc4a740120; state = Possible; delaysTouchesBegan = YES; view = <UILayoutContainerView 0x7fdc4a73e690>; target= <(action=handleNavigationTransition:, >>
+ 
+ */
 
 - (void)viewDidLoad {
     [super viewDidLoad];

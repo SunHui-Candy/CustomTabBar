@@ -45,6 +45,7 @@
 
 - (void)tagRightClick
 {
+    // 进入推荐标签界面
     SHSubTagTwoTBController *subRightVC = [[SHSubTagTwoTBController alloc]init];
     [self.navigationController pushViewController:subRightVC animated:YES];
 

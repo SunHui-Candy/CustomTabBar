@@ -63,3 +63,11 @@
 
 #define kBackGroundColor RGBA(247, 249, 251, 100)
 
+
+#define SHColor(r,g,b) [UIColor colorWithRed:(r) / 256.0 green:(g) / 256.0 blue:(b) / 256.0 alpha:1]
+
+#define SHRandomColor SHColor(arc4random_uniform(255), arc4random_uniform(255), arc4random_uniform(255))
+
+
+
+

@@ -17,6 +17,7 @@
 
 #import "SHAFNManger.h" //封装的网络请求
 
+#import "SHTitleBtn.h" // 按钮
 
 #import <AFNetworking/AFNetworking.h>
 #import <UIImageView+WebCache.h>

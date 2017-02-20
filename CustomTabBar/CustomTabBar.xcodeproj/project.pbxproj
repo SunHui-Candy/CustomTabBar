@@ -15,6 +15,15 @@
 		811E25BF1E12769200744599 /* CustomTabBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 811E25BE1E12769200744599 /* CustomTabBarTests.m */; };
 		811E25CA1E12769200744599 /* CustomTabBarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 811E25C91E12769200744599 /* CustomTabBarUITests.m */; };
 		811E25E01E1277BB00744599 /* CustomTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 811E25DF1E1277BB00744599 /* CustomTabBarController.m */; };
+		8136AC881E28AD4C00966AF4 /* SHTopicBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8136AC7D1E28AD4C00966AF4 /* SHTopicBaseTableViewController.m */; };
+		8136AC891E28AD4C00966AF4 /* SHTopicFiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8136AC7F1E28AD4C00966AF4 /* SHTopicFiveViewController.m */; };
+		8136AC8A1E28AD4C00966AF4 /* SHTopicFourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8136AC811E28AD4C00966AF4 /* SHTopicFourViewController.m */; };
+		8136AC8B1E28AD4C00966AF4 /* SHTopicOneTBController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8136AC831E28AD4C00966AF4 /* SHTopicOneTBController.m */; };
+		8136AC8C1E28AD4C00966AF4 /* SHTopicThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8136AC851E28AD4C00966AF4 /* SHTopicThreeViewController.m */; };
+		8136AC8D1E28AD4C00966AF4 /* SHTopicTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8136AC871E28AD4C00966AF4 /* SHTopicTwoViewController.m */; };
+		8136AC921E28B88500966AF4 /* SHTopicViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8136AC901E28B88500966AF4 /* SHTopicViewCell.m */; };
+		8136AC931E28B88500966AF4 /* SHTopicViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8136AC911E28B88500966AF4 /* SHTopicViewCell.xib */; };
+		8136AC961E28BC3500966AF4 /* SHTitleBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 8136AC951E28BC3500966AF4 /* SHTitleBtn.m */; };
 		81B05F0B1E232EA1002A5CC9 /* SHFiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B05F0A1E232EA1002A5CC9 /* SHFiveViewController.m */; };
 		81B05F0E1E233077002A5CC9 /* UIImage+SHOriginalImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B05F0D1E233077002A5CC9 /* UIImage+SHOriginalImage.m */; };
 		81B05F111E2339CE002A5CC9 /* SHTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B05F101E2339CE002A5CC9 /* SHTabBar.m */; };
@@ -75,6 +84,23 @@
 		811E25DE1E1277BB00744599 /* CustomTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTabBarController.h; sourceTree = "<group>"; };
 		811E25DF1E1277BB00744599 /* CustomTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTabBarController.m; sourceTree = "<group>"; };
 		811E25E11E12782C00744599 /* CustomTabBar.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomTabBar.pch; path = Class/CustomTabBar.pch; sourceTree = "<group>"; };
+		8136AC7C1E28AD4C00966AF4 /* SHTopicBaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHTopicBaseTableViewController.h; sourceTree = "<group>"; };
+		8136AC7D1E28AD4C00966AF4 /* SHTopicBaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHTopicBaseTableViewController.m; sourceTree = "<group>"; };
+		8136AC7E1E28AD4C00966AF4 /* SHTopicFiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHTopicFiveViewController.h; sourceTree = "<group>"; };
+		8136AC7F1E28AD4C00966AF4 /* SHTopicFiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHTopicFiveViewController.m; sourceTree = "<group>"; };
+		8136AC801E28AD4C00966AF4 /* SHTopicFourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHTopicFourViewController.h; sourceTree = "<group>"; };
+		8136AC811E28AD4C00966AF4 /* SHTopicFourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHTopicFourViewController.m; sourceTree = "<group>"; };
+		8136AC821E28AD4C00966AF4 /* SHTopicOneTBController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHTopicOneTBController.h; sourceTree = "<group>"; };
+		8136AC831E28AD4C00966AF4 /* SHTopicOneTBController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHTopicOneTBController.m; sourceTree = "<group>"; };
+		8136AC841E28AD4C00966AF4 /* SHTopicThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHTopicThreeViewController.h; sourceTree = "<group>"; };
+		8136AC851E28AD4C00966AF4 /* SHTopicThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHTopicThreeViewController.m; sourceTree = "<group>"; };
+		8136AC861E28AD4C00966AF4 /* SHTopicTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHTopicTwoViewController.h; sourceTree = "<group>"; };
+		8136AC871E28AD4C00966AF4 /* SHTopicTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHTopicTwoViewController.m; sourceTree = "<group>"; };
+		8136AC8F1E28B88500966AF4 /* SHTopicViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHTopicViewCell.h; sourceTree = "<group>"; };
+		8136AC901E28B88500966AF4 /* SHTopicViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHTopicViewCell.m; sourceTree = "<group>"; };
+		8136AC911E28B88500966AF4 /* SHTopicViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SHTopicViewCell.xib; sourceTree = "<group>"; };
+		8136AC941E28BC3500966AF4 /* SHTitleBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHTitleBtn.h; sourceTree = "<group>"; };
+		8136AC951E28BC3500966AF4 /* SHTitleBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHTitleBtn.m; sourceTree = "<group>"; };
 		81B05F091E232EA1002A5CC9 /* SHFiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHFiveViewController.h; sourceTree = "<group>"; };
 		81B05F0A1E232EA1002A5CC9 /* SHFiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHFiveViewController.m; sourceTree = "<group>"; };
 		81B05F0C1E233077002A5CC9 /* UIImage+SHOriginalImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+SHOriginalImage.h"; sourceTree = "<group>"; };
@@ -351,6 +377,7 @@
 			children = (
 				81BFA94D1E1D05AD00D0AD35 /* SHOneViewController.h */,
 				81BFA94E1E1D05AD00D0AD35 /* SHOneViewController.m */,
+				8136AC7B1E28AD4C00966AF4 /* Topic */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -365,6 +392,7 @@
 		811E25F91E128ADF00744599 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				8136AC8E1E28B85400966AF4 /* TopicView */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -477,6 +505,37 @@
 			children = (
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		8136AC7B1E28AD4C00966AF4 /* Topic */ = {
+			isa = PBXGroup;
+			children = (
+				8136AC7C1E28AD4C00966AF4 /* SHTopicBaseTableViewController.h */,
+				8136AC7D1E28AD4C00966AF4 /* SHTopicBaseTableViewController.m */,
+				8136AC7E1E28AD4C00966AF4 /* SHTopicFiveViewController.h */,
+				8136AC7F1E28AD4C00966AF4 /* SHTopicFiveViewController.m */,
+				8136AC801E28AD4C00966AF4 /* SHTopicFourViewController.h */,
+				8136AC811E28AD4C00966AF4 /* SHTopicFourViewController.m */,
+				8136AC821E28AD4C00966AF4 /* SHTopicOneTBController.h */,
+				8136AC831E28AD4C00966AF4 /* SHTopicOneTBController.m */,
+				8136AC841E28AD4C00966AF4 /* SHTopicThreeViewController.h */,
+				8136AC851E28AD4C00966AF4 /* SHTopicThreeViewController.m */,
+				8136AC861E28AD4C00966AF4 /* SHTopicTwoViewController.h */,
+				8136AC871E28AD4C00966AF4 /* SHTopicTwoViewController.m */,
+			);
+			path = Topic;
+			sourceTree = "<group>";
+		};
+		8136AC8E1E28B85400966AF4 /* TopicView */ = {
+			isa = PBXGroup;
+			children = (
+				8136AC8F1E28B88500966AF4 /* SHTopicViewCell.h */,
+				8136AC901E28B88500966AF4 /* SHTopicViewCell.m */,
+				8136AC911E28B88500966AF4 /* SHTopicViewCell.xib */,
+				8136AC941E28BC3500966AF4 /* SHTitleBtn.h */,
+				8136AC951E28BC3500966AF4 /* SHTitleBtn.m */,
+			);
+			path = TopicView;
 			sourceTree = "<group>";
 		};
 		81B05F051E232E92002A5CC9 /* Five */ = {
@@ -682,6 +741,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				811E25B41E12769200744599 /* LaunchScreen.storyboard in Resources */,
+				8136AC931E28B88500966AF4 /* SHTopicViewCell.xib in Resources */,
 				811E25B11E12769200744599 /* Assets.xcassets in Resources */,
 				811E25AF1E12769200744599 /* Main.storyboard in Resources */,
 				81DE2BA71E248D9C00AF177A /* SHSubTagTwoCell.xib in Resources */,
@@ -759,23 +819,31 @@
 			files = (
 				81BFA9581E1D05DA00D0AD35 /* SHFourViewController.m in Sources */,
 				81B05F141E233AAB002A5CC9 /* UIView+SHFrame.m in Sources */,
+				8136AC961E28BC3500966AF4 /* SHTitleBtn.m in Sources */,
 				81B05F191E235E7E002A5CC9 /* SHConstStr.m in Sources */,
 				81DE2BA61E248D9C00AF177A /* SHSubTagTwoCell.m in Sources */,
 				81BFA94F1E1D05AD00D0AD35 /* SHOneViewController.m in Sources */,
 				81DE2BAA1E24C05100AF177A /* SHSubTagItem.m in Sources */,
 				811E25A91E12769200744599 /* AppDelegate.m in Sources */,
+				8136AC8B1E28AD4C00966AF4 /* SHTopicOneTBController.m in Sources */,
 				811E25A61E12769200744599 /* main.m in Sources */,
 				81C269901E262A930057AC6B /* UIImageView+SHDownloader.m in Sources */,
 				81DE2BAF1E24C30800AF177A /* SHAFNManger.m in Sources */,
 				81BFA9521E1D05C200D0AD35 /* SHTwoViewController.m in Sources */,
+				8136AC8D1E28AD4C00966AF4 /* SHTopicTwoViewController.m in Sources */,
+				8136AC881E28AD4C00966AF4 /* SHTopicBaseTableViewController.m in Sources */,
 				81DE2BA21E248D7100AF177A /* SHSubTagTwoTBController.m in Sources */,
 				81B05F0B1E232EA1002A5CC9 /* SHFiveViewController.m in Sources */,
 				81B05F261E236D30002A5CC9 /* SHSubTagViewController.m in Sources */,
 				81B05F0E1E233077002A5CC9 /* UIImage+SHOriginalImage.m in Sources */,
+				8136AC921E28B88500966AF4 /* SHTopicViewCell.m in Sources */,
 				81BFA9551E1D05CE00D0AD35 /* SHThreeViewController.m in Sources */,
+				8136AC8A1E28AD4C00966AF4 /* SHTopicFourViewController.m in Sources */,
+				8136AC891E28AD4C00966AF4 /* SHTopicFiveViewController.m in Sources */,
 				81B05F291E2379F2002A5CC9 /* SHTagOneViewController.m in Sources */,
 				81B05F231E236AF9002A5CC9 /* UIBarButtonItem+SHItem.m in Sources */,
 				81B05F111E2339CE002A5CC9 /* SHTabBar.m in Sources */,
+				8136AC8C1E28AD4C00966AF4 /* SHTopicThreeViewController.m in Sources */,
 				811E25E01E1277BB00744599 /* CustomTabBarController.m in Sources */,
 				81B05F201E2366C3002A5CC9 /* SHNavigationController.m in Sources */,
 				81B05F2C1E2379FE002A5CC9 /* SHTagTwoViewController.m in Sources */,
