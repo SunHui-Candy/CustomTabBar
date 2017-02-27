@@ -1,0 +1,13 @@
+//
+//  STUserBuyPower.m
+//  ydjr
+//
+//  Created by ios on 17/2/22.
+//  Copyright © 2017年 云端金融. All rights reserved.
+//
+
+#import "STUserBuyPower.h"
+
+@implementation STUserBuyPower
+
+@end

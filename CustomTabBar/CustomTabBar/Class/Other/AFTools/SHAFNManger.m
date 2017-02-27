@@ -56,8 +56,6 @@
 }
 
 
-
-
 @end
 
 @implementation SHAFNManger(TwoUser)
@@ -73,7 +71,17 @@
 }
 
 
+- (void)actionGetFiveCollectionDataSuccess:(SUCCESS_BLOCK)success failure:(FAIL_BLOCK)failure
+{
+    // 1.拼接请求参数
+    NSMutableDictionary *parameters = [NSMutableDictionary dictionary];
+    parameters[@"a"] = @"square";
+    parameters[@"c"] = @"topic";
+    
+    [self customGetWithParameters:parameters cmdName:@"" success:success failure:success];
+    
 
+}
 
 @end
 

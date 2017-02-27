@@ -42,4 +42,19 @@
     return  [[UIBarButtonItem alloc] initWithCustomView:backButton];
 }
 
+
++ (UIBarButtonItem *)itemWithimage:(UIImage *)image selImage:(UIImage *)selImage target:(id)target action:(SEL)action
+{
+    UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
+    [btn setImage:image forState:UIControlStateNormal];
+    [btn setImage:selImage forState:UIControlStateSelected];
+    [btn sizeToFit];
+    [btn addTarget:target action:action forControlEvents:UIControlEventTouchUpInside];
+    UIView *containView = [[UIView alloc] initWithFrame:btn.bounds];
+    [containView addSubview:btn];
+    
+    return [[UIBarButtonItem alloc] initWithCustomView:containView];
+}
+
+
 @end

@@ -49,7 +49,13 @@
     [self setupAllChildViewControllersWithChildVC:[[SHOneViewController alloc] init] title:@"第一" image:@"tabBar_essence_icon" seletedImage:@"tabBar_essence_click_icon"];
     [self setupAllChildViewControllersWithChildVC:[[SHTwoViewController alloc] init] title:@"第二" image:@"tabBar_new_icon" seletedImage:@"tabBar_new_click_icon"];
     [self setupAllChildViewControllersWithChildVC:[[SHFourViewController alloc] init] title:@"第四" image:@"tabBar_friendTrends_icon" seletedImage:@"tabBar_friendTrends_click_icon"];
-    [self setupAllChildViewControllersWithChildVC:[[SHFiveViewController alloc] init] title:@"第五" image:@"tabBar_me_icon" seletedImage:@"tabBar_me_click_icon"];
+    
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:NSStringFromClass([SHFiveViewController class]) bundle:nil];
+    // 加载箭头指向控制器
+    SHFiveViewController *meVc = [storyboard instantiateInitialViewController];
+    
+    [self setupAllChildViewControllersWithChildVC:meVc title:@"第五" image:@"tabBar_me_icon" seletedImage:@"tabBar_me_click_icon"];
+    
 
     //自定义tabBar
     [self setupTabBar];

@@ -35,4 +35,13 @@ typedef void(^FAIL_BLOCK)(NSError * error);
 - (void)actionGetSubTagSuccess:(SUCCESS_BLOCK)success
                            failure:(FAIL_BLOCK)failure;
 
+/**
+ 
+ 获取第五个界面的瀑布流接口
+ */
+
+- (void)actionGetFiveCollectionDataSuccess:(SUCCESS_BLOCK)success
+                       failure:(FAIL_BLOCK)failure;
+
+
 @end
